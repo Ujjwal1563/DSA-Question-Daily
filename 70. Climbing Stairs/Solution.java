@@ -7,7 +7,7 @@ class Solution {
         if (arr[n] != 0) {
             return arr[n];
         }
-        arr[n] = ways(n - 1,arr) + ways(n - 2,arr);
+        arr[n] = ways(n - 1, arr) + ways(n - 2, arr);
         return arr[n];
     }
 
